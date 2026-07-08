@@ -3,9 +3,14 @@
 Thumbs.db
 desktop.ini
 
-# Editor
+# Editor / Temp files
 .vscode/
 .idea/
+*markpad-tmp*
+.*.markpad-tmp*
 
 # Node (only if you later add a build step)
 node_modules/
+
+# Markdown documentation (kept locally only)
+*.md
