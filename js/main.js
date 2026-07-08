@@ -160,7 +160,7 @@
         }
       });
       data["h-captcha-response"] = captcha.value;
-      fetch("https://api.web3forms.com/submit", {
+      fetch("https://kinstay-form.kinstay.workers.dev/", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(data)

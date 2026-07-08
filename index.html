@@ -396,9 +396,7 @@
           <div class="inquire-form-wrap">
             <p class="avail-caption"><span class="step-num">2</span> Request to book — we'll confirm and follow up within 24 hours.</p>
 
-          <form class="inquire-form" id="inquiryForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
-            <!-- Web3Forms config: replace the access_key value with your own free key from https://web3forms.com -->
-            <input type="hidden" name="access_key" value="aa1449b3-5a53-4548-8ca1-5c25e31a24d0" />
+          <form class="inquire-form" id="inquiryForm" action="https://kinstay-form.kinstay.workers.dev/" method="POST" novalidate>
             <input type="hidden" name="subject" value="New KinStay Massanutten booking inquiry" />
             <input type="hidden" name="from_name" value="KinStay Massanutten website" />
             <!-- Honeypot: bots fill this, humans never see it -->
@@ -530,7 +528,7 @@
 
   <!-- hCaptcha (renders the widget in the direct-booking form; Web3Forms verifies it server-side) -->
   <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-  <script src="js/availability.js?v=1.0.2"></script>
-  <script src="js/main.js?v=1.0.2"></script>
+  <script src="js/availability.js?v=1.0.3"></script>
+  <script src="js/main.js?v=1.0.3"></script>
 </body>
 </html>
